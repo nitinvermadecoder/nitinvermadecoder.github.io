@@ -525,6 +525,13 @@ section,
   justify-content: center;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+.hero {
+  min-height: 40vh;
+  }
+}
+
+
 .hero img {
   position: absolute;
   inset: 0;
